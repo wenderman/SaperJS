@@ -1,0 +1,191 @@
+body {	
+	padding: 0;
+	margin: 0;	
+}
+
+.home-screen {
+	background: url(../img/mines.jpg) top center/cover no-repeat;
+	height: auto;		
+	width: auto;
+}
+
+.h1 {		
+	font-size: 50px;
+	margin: 0;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+.score {
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+	text-transform: uppercase;		
+}
+
+.container {
+	width: 900px;
+	min-height: 100vh;	
+	margin: 0 auto;
+	font-family: 'Stardos Stencil', cursive;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+}
+
+.field {
+	display: inline-block;		
+}
+
+.row {
+	padding: 0;
+	margin: 0;
+
+}
+
+.row:after {
+  content: '';
+  display: table;
+  width: auto;
+  clear: both;
+}
+
+.cell {
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+	border: 1px solid #676767;	
+	float: left;	
+	background: #b3b3b4;
+}
+
+.hidden-cell {
+	background: url(../img/hidden-cell.jpg) center center/ contain no-repeat;	
+	cursor: pointer;
+}
+
+.hidden-cell:hover {
+	background: url(../img/hover-cell.jpg) center center/ contain no-repeat;	
+	cursor: pointer;
+	transition: all 0.08s;
+}
+
+.mark-cell {
+	background: url(../img/mark-cell.jpg) center center/ contain no-repeat;	
+	cursor: pointer;
+}
+
+.mark-cell:hover {
+	background: url(../img/mark-cell.jpg) center center/ contain no-repeat;	
+	cursor: pointer;
+	transition: all 0.08s;
+}
+
+.mine {
+	background: url(../img/mine.jpg) center center/ contain no-repeat;
+}
+
+.mark-mine {
+	background: url(../img/mark-mine.jpg) center center/ contain no-repeat;
+}
+
+.text {
+	cursor: default;	
+}
+
+.text-1 {
+	color: #414fbc;
+}
+
+.text-2 {
+	color: #186d01;
+}
+
+.text-3 {
+	color: #a90709;
+}
+
+.text-4 {
+	color: #01047b;
+}
+
+.text-5 {
+	color: #7e0002;
+}
+
+.text-6 {
+	color: #077881;
+}
+
+.text-7 {
+	color: #b4020c;
+}
+
+.text-8 {
+	color: #b6050e;
+}
+
+.game-info-content {
+	font-size: 16px;	
+	margin: 5px 0 0 0;
+	text-transform: uppercase;
+	color: #000000;		
+}
+
+.form {
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.form-title {
+	color: #000000;	
+}
+
+.form-group {
+	display: inline-block;	
+	margin-left: 15px;
+}
+
+.form-group:nth-child(2) {	
+	margin-left: 0;
+}
+
+.form-item {
+	font-family: 'Stardos Stencil', cursive;
+	font-size: 18px;
+	font-weight: 700;
+	background: transparent;
+	border: 0;
+	border: 1px solid #000000;
+	color: #000000;
+	margin: auto;
+	padding: 5px 0;
+	width: 40px;
+	text-align: center;
+	outline: none;
+	display: block;
+}
+
+.form-input:focus {
+	border-color: #fff;
+}
+
+.form__label {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.form__button {
+	width: auto;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	background: #979797;
+	color: #000;
+	cursor: pointer;
+}
+
+.text-red {
+	color: #f13842;
+}
